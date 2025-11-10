@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ally Bank – Maintenance Update</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+    body {
+      background: linear-gradient(135deg, #fadfff 0%, #be84e7 100%);
+      margin: 0;
+      font-family: 'Montserrat', 'Lato', Arial, sans-serif;
+      color: #50104A;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      padding: 32px 44px 0 44px;
+    }
+    .logo-text {
+      font-size: 48px;
+      font-weight: 800;
+      color: #50104A;
+      letter-spacing: -1px;
+      text-transform: lowercase;
+      font-family: 'Montserrat', Arial, sans-serif;
+      margin-right: 20px;
+    }
+    .main-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 65vh;
+      margin-top: 12px;
+      text-align: center;
+    }
+    .headline {
+      font-size: 38px;
+      font-weight: 800;
+      color: #50104A;
+      margin-bottom: 10px;
+      font-family: 'Montserrat', Arial, sans-serif;
+    }
+    .details {
+      font-size: 18px;
+      color: #4b385d;
+      margin-bottom: 40px;
+      font-family: 'Montserrat', Arial, sans-serif;
+      margin-top: 5px;
+    }
+    .button {
+      padding: 16px 38px;
+      background: #8b1f7c;
+      color: #fff;
+      border: none;
+      border-radius: 28px;
+      font-size: 18px;
+      font-weight: 700;
+      box-shadow: 0 2px 12px rgba(139, 31, 124, 0.14);
+      cursor: pointer;
+      margin-top: 12px;
+      transition: box-shadow .15s, background .15s;
+    }
+    .button:hover {
+      background: #50104A;
+      box-shadow: 0 4px 16px rgba(80,16,74,0.18);
+    }
+    @media (max-width: 600px) {
+      .header { padding: 22px 9px 0 9px; }
+      .logo-text { font-size: 34px; }
+      .headline { font-size: 26px; }
+      .details { font-size: 16px; }
+      .button { font-size: 15px; padding: 10px 22px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span class="logo-text">ally</span>
+  </div>
+  <div class="main-section">
+    <span class="headline">Scheduled Maintenance In Progress</span>
+    <div class="details">
+      Your online experience is important to us. We're making updates to improve our service.<br>
+      Please check back soon.
+    </div>
+  </div>
+</body>
+</html>
